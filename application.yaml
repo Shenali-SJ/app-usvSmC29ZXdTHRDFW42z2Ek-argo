@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: petclinic
+  name: lms
   namespace: argocd
 spec:
-  project: default
+  project: manual
   source:
     repoURL: https://github.com/Shenali-SJ/app-usvSmC29ZXdTHRDFW42z2Ek-helm.git
     targetRevision: main
